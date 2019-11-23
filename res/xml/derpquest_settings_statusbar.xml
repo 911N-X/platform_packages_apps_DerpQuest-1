@@ -160,6 +160,13 @@
             android:summary="@string/status_bar_battery_text_charging_summary"
             android:defaultValue="true" />
 
+    <!-- Rounded Corners -->
+    <PreferenceScreen 
+         android:key="rounded_corners" 
+         android:title="@string/corners_title" 
+         android:summary="@string/corners_summary" 
+         android:fragment="com.derpquest.settings.fragments.RoundedCornersSettings" />
+
     </PreferenceCategory>
 
 </PreferenceScreen>
